@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SinPlugin">
+    <output-path>$PROJECT_DIR$/plugins</output-path>
+    <root id="archive" name="SinPlugin.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="ua">
+        <element id="directory" name="cn">
+          <element id="directory" name="stu">
+            <element id="directory" name="plugin">
+              <element id="directory" name="api">
+                <element id="dir-copy" path="$PROJECT_DIR$/target/classes/ua/cn/stu/plugin/api" />
+              </element>
+              <element id="directory" name="sin">
+                <element id="file-copy" path="$PROJECT_DIR$/target/classes/ua/cn/stu/plugin/sin/SinPlugin.class" />
+                <element id="file-copy" path="$PROJECT_DIR$/src/main/java/ua/cn/stu/plugin/sin/descriptor.properties" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
